@@ -1,0 +1,19 @@
+{
+  "name": "gaia-account-setup",
+  "version": "0.1.0",
+  "description": "A simple utility to enable flow accounts to receive Gaia NFTs",
+  "main": "index.js",
+  "author": "Carlos Tosta <jctosta86@gmail.com>",
+  "dependencies": {
+    "@onflow/fcl": "^0.0.77",
+    "@onflow/sdk": "^0.0.55",
+    "@onflow/types": "^0.0.5",
+    "dotenv": "^10.0.0",
+    "elliptic": "^6.5.4",
+    "sha3": "^2.1.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {}
+}
